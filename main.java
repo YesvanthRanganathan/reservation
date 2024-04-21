@@ -3,7 +3,7 @@ import java.text.SimpleDateFormat; //string->date format package
 import java.util.*;
 import java.text.ParseException; // for exception pakage
 
-
+//Main class
 public class main {
 	public static void main(String[] args) {
 		ArrayList<Busdetails> buses = new ArrayList<Busdetails>();//Busdetails ArrayList
@@ -37,6 +37,7 @@ public class main {
 		}		
 }
 }
+//busdetails class
 class Busdetails {
 	private int Bus_no;
 	private boolean AC;
@@ -66,6 +67,7 @@ class Busdetails {
 		System.out.println("Bus no : "+this.Bus_no+" AC : "+this.AC+" Bus capacity : "+this.capacity);
 	}
 }
+//booking class
 class Booking {
 	String name;
 	int Bus_no;
